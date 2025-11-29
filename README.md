@@ -84,5 +84,92 @@ of a multi-line comment
 5.  Add comments to the program in problem 4.
 
 ------------------------------------------------------------------------
+# Python Notes -- Chapter 2
 
-Made for GitHub upload ✔️
+Variables & Data Types
+
+------------------------------------------------------------------------
+
+## 🧠 What is a Variable?
+
+A **variable** is a name given to a memory location that stores data.
+
+``` python
+a = 30        # integer
+b = "harry"   # string
+c = 71.22     # float
+```
+
+------------------------------------------------------------------------
+
+## 🧩 Data Types in Python
+
+Python automatically identifies the type of data.
+
+### Main Data Types:
+
+1.  **Integers**
+2.  **Floating point numbers**
+3.  **Strings**
+4.  **Booleans**
+5.  **None**
+
+Examples:
+
+``` python
+a = 71         # <int>
+b = 88.44      # <float>
+name = "harry" # <str>
+```
+
+------------------------------------------------------------------------
+
+## 🏷 Rules for Naming Identifiers
+
+-   Can contain letters, digits, and underscores\
+-   Must start with a **letter** or **underscore**\
+-   Cannot start with a **digit**\
+-   Cannot contain spaces
+
+Valid examples:\
+`harry`, `one8`, `seven`, `_seven`
+
+------------------------------------------------------------------------
+
+## 🔢 Operators in Python
+
+### 1. **Arithmetic Operators**
+
+`+  -  *  /`
+
+### 2. **Assignment Operators**
+
+`=  +=  -=`
+
+### 3. **Comparison Operators**
+
+`==  >  >=  <  !=`
+
+### 4. **Logical Operators**
+
+`and  or  not`
+
+------------------------------------------------------------------------
+
+# 📘 Chapter 2 -- Practice Set
+
+1.  Write a Python program to add two numbers.\
+2.  Write a Python program to find the remainder when a number is
+    divided by z.\
+3.  Check the type of variable received from `input()`.\
+4.  Use a comparison operator to check if `a > b` for `a = 34`,
+    `b = 80`.\
+5.  Write a Python program to find the average of two numbers entered by
+    the user.\
+6.  Write a Python program to calculate the square of a user-entered
+    number.
+
+------------------------------------------------------------------------
+
+Ready for GitHub ✔️
+
